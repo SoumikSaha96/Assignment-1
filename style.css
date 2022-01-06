@@ -1,40 +1,130 @@
-    body{
-        font-family: 'Poppins', sans-serif;
-        margin: 0px;
-    }
-    h1{
-        font-size: 50px;
+        body{
+            font-family: 'Poppins', sans-serif;
+            margin: 0px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        .orange-color{
+            color: orange;
+        }
+        .flexible-container{
+            display: flex;
+            margin: 10%;
+        }
+        .half-width{
+            width: 50%;
+            padding-left: 6%;
+        
+        }
+        .half-width img{
+            width: 60%;
+            padding-right: 3%;
+        }
+        .link-button{
+            text-decoration: none;
+            background-color: orangered;
+            padding: 5px 20px;
+            border-radius: 5px;
+            
+        }
+
+        .border-color{
+            border-left: 5px solid;
+            border-color: orangered;
+        }
+        .mission{
+            text-align: center;
+            font-size: 45px;
+            font:bold;
+            
+        }
+        .mission-color{
+            background-color: palegoldenrod;
+            border-radius: 8px;
+            content: none;
+            
+        }
+        .vision-color{
+            background-color: palevioletred;
+            border-radius: 10px;
+            padding: 30px;
+        }
+        .goal-color{
+            background-color: lightblue ;
+            border-radius: 10px;
+            padding: 30px;
+        }
+        .mission-area{
+            margin: 5%;
+            width: 90%;
+
+        }
+        .poppins{
+            margin-bottom: 20px;
+            
+        }
+        .fit-img{
+            width: 30%;
+            padding: 10px;
+        }
+        .new-width{
+            width: 100%;
+            margin: 10px;
+        }
+        .background-img1{
+            background-image: url(images/shapes/shape-6.png);
+            background-repeat: no-repeat;
+            background-position:right ;
+            background-size: 350px 300px;
+            
+        }
+        .background-img2{
+            background-image: url(images/shapes/shape-8.png);
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: 350px 300px;
+        }
+        #coding-img{
+            width: 80%;
+            padding: 5px;
+        
+            }
+            #project-img{
+                width: 80%;
+                padding: 5px;
+
+            }
+            .soumik-img{
+                width: 100%;
+                padding: 5px;
+            }
+
+
+            #background-img3{
+                background-image: url(images/shapes/shape-3.png);
+                background-repeat:no-repeat ;
+               background-position: right ;
+               background-size: 200px;
+            }
+            footer p{
+                background-color: darkblue;
+                text-align: center;
+            }
+            
+        .footer {
+            
+            left: 0%;
+            bottom: 0%;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+    
+            
+            
+        
+
 
         
-    }
-    .orange-color{
-        color: orange;
-    }
-    section{
-        display: flex;
-    }
-    .half-width{
-        width: 50%;
-        padding-left: 6%;
-    }
-    .half-width img{
-        width: 60%;
-        padding-right: 3%;
-    }
-    .link-button{
-        text-decoration: none;
-        background-color: orangered;
-        padding: 5px 20px;
-        border-radius: 5px;
-        
-    }
-
-    .border-color{
-        border-left: 5px solid;
-        border-color: orangered;
-    }
-    .mission{
-        text-align: center;
-        font-size: 45px;
-        font:bold;
-    }
